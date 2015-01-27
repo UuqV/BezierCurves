@@ -20,6 +20,10 @@ public class DrawView extends View {
     	int finalx = 200; int finaly = 200;
     	int initialhandlex = 50; int initialhandley = 200;
     	int finalhandlex = 200; int finalhandley = 200;
+    	float initials = (float) initialy / initialx;
+    	float finals = (float) finaly / finalx;
+    	float initialhandles = (float) initialhandlex / initialhandley;
+    	float finalhandles = (float) 
     	for (int i = initialx; i < 20; i++) {
     		canvas.drawPoint(i, j, paint);
     		j++;
